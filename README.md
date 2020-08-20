@@ -26,24 +26,20 @@ The demographic and socio-economic data in this study was sourced from the Ameri
 Below are the cartograms, line plots, and Poisson regression generated from our data. It is worth noting that, beginning at 8am on July 22nd, noticeably fewer trips were recorded than in the preceding days. All 5 companies recorded fewer trips over this period. Given that there were no significant news events at that time, this is likely an issue with either our server or with Washington, D.C.’s APIs. We still included these days in our analysis because they still show similar trends, but simply reduced in magnitude.
 
 ### Cartograms
-![Cartogram]
-(https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Cartograms.png)
+![Cartogram](https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Cartograms.png)
 In the cartograms, we see that race has a closer correlation to e-scooter activity than income (the variations in color more closely match the variations in size).
 
 ### Temporal Plots
-![Temporal Plot WRT Income]
-(https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Temporal%20Plot%20WRT%20Poverty.png)
+![Temporal Plot WRT Income](https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Temporal%20Plot%20WRT%20Poverty.png)
 
-![Temporal Plot WRT Race]
-(https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Temporal%20Plot%20WRT%20Race.png)
+![Temporal Plot WRT Race](https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Temporal%20Plot%20WRT%20Race.png)
 
 In the temporal plots, we see, with very little exception, the census tracts in the upper 40% of African-American population have the least e-scooter activity over the course of the day. Poverty again shows a less distinct trend with e-scooter activity. 
 
 Also notable is that the census tracts with fewer African-Americans and/or less poverty follow different usage patterns. They tend to peak in e-scooter activity during midday, while census tracts with greater concentrations of African-Americans and greater poverty levels decrease in e-scooter activity during midday. This indicates that scooters are leaving census tracts with more African-Americans during peak usage times.
 
 ### Poisson Regression
-![Poisson Regression]
-(https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Poisson%20Regression.png)
+![Poisson Regression](https://raw.githubusercontent.com/theresa-lim/RMP_Scooter_Proj/master/Figures/Poisson%20Regression.png)
 As shown in the table, employment and education level are statistically significant, which is to be expected. However, percent of African-Americans is also statistically significant, which is disappointing since race should logically have no bearing on e-scooter availability.
 
 ## Final thoughts
